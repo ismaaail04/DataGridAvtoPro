@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34607.119
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataGridAvto", "DataGridAvto\DataGridAvto.csproj", "{3144E65D-5437-4F94-9094-504E5D5D033C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataGridAvto.AvtoManager", "DataGridAvto.AvtoManager\DataGridAvto.AvtoManager.csproj", "{58C6C086-EFF4-4221-8286-F268445C1614}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataGridAvto.Contracts", "DataGridAvto.Contracts\DataGridAvto.Contracts.csproj", "{305CADB6-6DA6-41C9-AC54-FE28C2E2AD1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataGridAvto.StorageMemory", "DataGridAvto.StorageMemory\DataGridAvto.StorageMemory.csproj", "{94307682-BA2B-443E-9B7F-74038B0A75CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3144E65D-5437-4F94-9094-504E5D5D033C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3144E65D-5437-4F94-9094-504E5D5D033C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3144E65D-5437-4F94-9094-504E5D5D033C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3144E65D-5437-4F94-9094-504E5D5D033C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58C6C086-EFF4-4221-8286-F268445C1614}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58C6C086-EFF4-4221-8286-F268445C1614}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58C6C086-EFF4-4221-8286-F268445C1614}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58C6C086-EFF4-4221-8286-F268445C1614}.Release|Any CPU.Build.0 = Release|Any CPU
+		{305CADB6-6DA6-41C9-AC54-FE28C2E2AD1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{305CADB6-6DA6-41C9-AC54-FE28C2E2AD1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{305CADB6-6DA6-41C9-AC54-FE28C2E2AD1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{305CADB6-6DA6-41C9-AC54-FE28C2E2AD1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94307682-BA2B-443E-9B7F-74038B0A75CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94307682-BA2B-443E-9B7F-74038B0A75CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94307682-BA2B-443E-9B7F-74038B0A75CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94307682-BA2B-443E-9B7F-74038B0A75CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {654A941E-DE9F-4A3E-AC89-3076AE9C1FA7}
+	EndGlobalSection
+EndGlobal
