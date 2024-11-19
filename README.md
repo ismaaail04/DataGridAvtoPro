@@ -9,3 +9,6 @@
 Задание 6, 7: Создание пакета NuGet, логирование модуля управления
 
 Задание: SeqLog, UnitTests
+![seq](https://github.com/user-attachments/assets/3417fe89-a407-4020-9695-d1e9bac1c1a9)
+
+
