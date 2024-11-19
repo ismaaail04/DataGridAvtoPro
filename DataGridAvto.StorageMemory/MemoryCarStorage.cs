@@ -16,6 +16,7 @@ namespace DataGridAvto.StorageMemory
         {
             car = new List<Avto>();
         }
+
         /// <summary>
         /// Асинхронный метод добавления авто
         /// </summary>
@@ -24,6 +25,7 @@ namespace DataGridAvto.StorageMemory
             car.Add(avto);
             return Task.FromResult(avto);
         }
+
         /// <summary>
         /// Асинхронный метод удаления авто
         /// </summary>
@@ -38,6 +40,7 @@ namespace DataGridAvto.StorageMemory
 
             return Task.FromResult(false);
         }
+
         /// <summary>
         /// Асинхронный метод редактирования авто
         /// </summary>
@@ -56,6 +59,7 @@ namespace DataGridAvto.StorageMemory
 
             return Task.CompletedTask;
         }
+
         /// <summary>
         /// Получение авто из хранилища
         /// </summary>

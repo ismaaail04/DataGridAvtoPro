@@ -11,20 +11,24 @@ namespace DataGridAvto.Contracts
         /// Асинхронное получение всех данных
         /// </summary
         Task<IReadOnlyCollection<Avto>> GetAllAsync();
+
         /// <summary>
         /// Асинхронное добавление
         /// </summary>
         Task<Avto> AddAsync(Avto avto);
+
         /// <summary>
         /// Асинхронное изменение
         /// </summary>
         Task EditAsync(Avto avto);
+
         /// <summary>
         /// Асинхронное удаление
         /// </summary>
         Task<bool> DeleteAsync(Guid id);
+
         /// <summary>
-        /// Асинхронная получение суммарных данных
+        /// Асинхронное получение суммарных данных
         /// </summary>
         Task<ICarStats> GetStatsAsync();
 

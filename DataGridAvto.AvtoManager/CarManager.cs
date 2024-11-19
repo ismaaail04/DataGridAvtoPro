@@ -15,6 +15,7 @@ namespace DataGridAvto.AvtoManager
     {
         private readonly ICarStorage carStorage;
         private readonly ILogger logger;
+
         /// <summary>
         /// Конструктор
         /// </summary
@@ -23,6 +24,7 @@ namespace DataGridAvto.AvtoManager
             this.logger = logger;
             this.carStorage = carStorage;
         }
+
         /// <intheridoc cref="ICarManager.AddAsync(Avto)"/>
         public async Task<Avto> AddAsync(Avto avto)
         {
@@ -57,6 +59,7 @@ namespace DataGridAvto.AvtoManager
                 );
             return result;
         }
+
         /// <inheritdoc cref="ICarManager.DeleteAsync(Guid)"/>
         public async Task<bool> DeleteAsync(Guid id)
         {
@@ -87,6 +90,7 @@ namespace DataGridAvto.AvtoManager
                 );
             return result;
         }
+
         /// <inheritdoc cref="ICarManager.EditAsync(Avto)"/>
         public async Task EditAsync(Avto avto)
         {
@@ -115,8 +119,8 @@ namespace DataGridAvto.AvtoManager
                     avto.Number
                 );
         }
-        /// <inheritdoc cref="ICarManager.GetAllAsync()"/>
 
+        /// <inheritdoc cref="ICarManager.GetAllAsync()"/>
         public async Task<IReadOnlyCollection<Avto>> GetAllAsync()
         {
             try
@@ -129,6 +133,7 @@ namespace DataGridAvto.AvtoManager
             }
             return null;
         }
+
         /// <inheritdoc cref="ICarManager.GetAllAsync()"/>
         public async Task<ICarStats> GetStatsAsync()
         {

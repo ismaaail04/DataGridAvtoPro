@@ -34,13 +34,6 @@
             this.правкаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.справкаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.toolStrip1 = new System.Windows.Forms.ToolStrip();
-            this.toolStripAdd = new System.Windows.Forms.ToolStripButton();
-            this.toolStripEdit = new System.Windows.Forms.ToolStripButton();
-            this.toolStripDelete = new System.Windows.Forms.ToolStripButton();
-            this.toolStrip2 = new System.Windows.Forms.ToolStrip();
-            this.toolStripLabel1 = new System.Windows.Forms.ToolStripLabel();
-            this.toolStripLabel2 = new System.Windows.Forms.ToolStripLabel();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Number = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Probeg = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -49,6 +42,13 @@
             this.CostRent = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.FuelReserve = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.RentalAmount = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.toolStrip1 = new System.Windows.Forms.ToolStrip();
+            this.toolStripAdd = new System.Windows.Forms.ToolStripButton();
+            this.toolStripEdit = new System.Windows.Forms.ToolStripButton();
+            this.toolStripDelete = new System.Windows.Forms.ToolStripButton();
+            this.toolStrip2 = new System.Windows.Forms.ToolStrip();
+            this.toolStripLabel1 = new System.Windows.Forms.ToolStripLabel();
+            this.toolStripLabel2 = new System.Windows.Forms.ToolStripLabel();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.toolStrip1.SuspendLayout();
@@ -106,6 +106,62 @@
             this.dataGridView1.TabIndex = 1;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             this.dataGridView1.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.dataGridView1_CellFormatting);
+            // 
+            // Column1
+            // 
+            this.Column1.DataPropertyName = "Mark";
+            this.Column1.HeaderText = "Марка";
+            this.Column1.Name = "Column1";
+            this.Column1.ReadOnly = true;
+            // 
+            // Number
+            // 
+            this.Number.DataPropertyName = "Number";
+            this.Number.HeaderText = "Гос номер";
+            this.Number.Name = "Number";
+            this.Number.ReadOnly = true;
+            // 
+            // Probeg
+            // 
+            this.Probeg.DataPropertyName = "Probeg";
+            this.Probeg.HeaderText = "Пробег";
+            this.Probeg.Name = "Probeg";
+            this.Probeg.ReadOnly = true;
+            // 
+            // AvgFuelCons
+            // 
+            this.AvgFuelCons.DataPropertyName = "AvgFuelCons";
+            this.AvgFuelCons.HeaderText = "Ср. расход топлива за час";
+            this.AvgFuelCons.Name = "AvgFuelCons";
+            this.AvgFuelCons.ReadOnly = true;
+            // 
+            // CurrFuel
+            // 
+            this.CurrFuel.DataPropertyName = "CurrFuel";
+            this.CurrFuel.HeaderText = "Текущий объём топлива";
+            this.CurrFuel.Name = "CurrFuel";
+            this.CurrFuel.ReadOnly = true;
+            // 
+            // CostRent
+            // 
+            this.CostRent.DataPropertyName = "CostRent";
+            this.CostRent.HeaderText = "Стоимость аренды (минута)";
+            this.CostRent.Name = "CostRent";
+            this.CostRent.ReadOnly = true;
+            // 
+            // FuelReserve
+            // 
+            this.FuelReserve.DataPropertyName = "FuelReserve";
+            this.FuelReserve.HeaderText = "Запас хода топлива";
+            this.FuelReserve.Name = "FuelReserve";
+            this.FuelReserve.ReadOnly = true;
+            // 
+            // RentalAmount
+            // 
+            this.RentalAmount.DataPropertyName = "RentalAmount";
+            this.RentalAmount.HeaderText = "Сумма аренды";
+            this.RentalAmount.Name = "RentalAmount";
+            this.RentalAmount.ReadOnly = true;
             // 
             // toolStrip1
             // 
@@ -173,62 +229,6 @@
             this.toolStripLabel2.Size = new System.Drawing.Size(86, 22);
             this.toolStripLabel2.Text = "toolStripLabel2";
             // 
-            // Column1
-            // 
-            this.Column1.DataPropertyName = "Mark";
-            this.Column1.HeaderText = "Марка";
-            this.Column1.Name = "Column1";
-            this.Column1.ReadOnly = true;
-            // 
-            // Number
-            // 
-            this.Number.DataPropertyName = "Number";
-            this.Number.HeaderText = "Гос номер";
-            this.Number.Name = "Number";
-            this.Number.ReadOnly = true;
-            // 
-            // Probeg
-            // 
-            this.Probeg.DataPropertyName = "Probeg";
-            this.Probeg.HeaderText = "Пробег";
-            this.Probeg.Name = "Probeg";
-            this.Probeg.ReadOnly = true;
-            // 
-            // AvgFuelCons
-            // 
-            this.AvgFuelCons.DataPropertyName = "AvgFuelCons";
-            this.AvgFuelCons.HeaderText = "Ср. расход топлива за час";
-            this.AvgFuelCons.Name = "AvgFuelCons";
-            this.AvgFuelCons.ReadOnly = true;
-            // 
-            // CurrFuel
-            // 
-            this.CurrFuel.DataPropertyName = "CurrFuel";
-            this.CurrFuel.HeaderText = "Текущий объём топлива";
-            this.CurrFuel.Name = "CurrFuel";
-            this.CurrFuel.ReadOnly = true;
-            // 
-            // CostRent
-            // 
-            this.CostRent.DataPropertyName = "CostRent";
-            this.CostRent.HeaderText = "Стоимость аренды (минута)";
-            this.CostRent.Name = "CostRent";
-            this.CostRent.ReadOnly = true;
-            // 
-            // FuelReserve
-            // 
-            this.FuelReserve.DataPropertyName = "FuelReserve";
-            this.FuelReserve.HeaderText = "Запас хода топлива";
-            this.FuelReserve.Name = "FuelReserve";
-            this.FuelReserve.ReadOnly = true;
-            // 
-            // RentalAmount
-            // 
-            this.RentalAmount.DataPropertyName = "RentalAmount";
-            this.RentalAmount.HeaderText = "Сумма аренды";
-            this.RentalAmount.Name = "RentalAmount";
-            this.RentalAmount.ReadOnly = true;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -239,8 +239,10 @@
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "CarInfo";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

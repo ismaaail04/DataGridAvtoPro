@@ -12,11 +12,12 @@ using ComboBox = System.Windows.Forms.ComboBox;
 namespace DataGridAvto
 {
     /// <summary>
-    /// Форма добавления данных абитуриентов
+    /// Форма добавления данных авто
     /// </summary>
     public partial class AvtoForm : Form
     {
         private ValidAvto avto;
+
         /// <summary>
         /// Конструктор
         /// </summary>
@@ -110,6 +111,11 @@ namespace DataGridAvto
             var context = new ValidationContext(avto, serviceProvider: null, items: null);
             var results = new List<ValidationResult>();
             return Validator.TryValidateObject(avto, context, results, true);
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -1,5 +1,4 @@
 ﻿using System;
-//using System.ComponentModel.DataAnnotations;
 
 namespace DataGridAvto.Contracts.Models
 {
@@ -19,7 +18,7 @@ namespace DataGridAvto.Contracts.Models
 
         /// <summary>
         /// Гос номер
-        /// </summary>
+        /// </summary>  ит
         public string Number { get; set; }
 
         /// <summary>
