@@ -13,7 +13,6 @@ namespace DataGridAvto.Contracts.Models
         /// <summary>
         /// Марка
         /// </summary>
-
         /// <intheridoc cref="Models.Mark"/>
         public Mark Mark { get; set; }
 

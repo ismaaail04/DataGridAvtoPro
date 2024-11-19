@@ -14,14 +14,17 @@ namespace DataGridAvto.Contracts
         /// Асинхронное получение всех данных
         /// </summary>
         Task<IReadOnlyCollection<Avto>> GetAllAsync();
+
         /// <summary>
         /// Асинхронное добавление
         /// </summary>
         Task<Avto> AddAsync(Avto Avto);
+
         /// <summary>
         /// Асинхронное изменение
         /// </summary>
         Task EditAsync(Avto Avto);
+
         /// <summary>
         /// Асинхронное удаление
         /// </summary>
