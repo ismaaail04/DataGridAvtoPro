@@ -16,3 +16,5 @@ Seq_Log (DataGridAvto
 ![seq](https://github.com/user-attachments/assets/3417fe89-a407-4020-9695-d1e9bac1c1a9)
 
 
+UPD (28.11.2024):
+Entity, database (DataGridAvto.StorageDataBase)
