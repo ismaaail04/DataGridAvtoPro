@@ -1,5 +1,5 @@
 ﻿using DataGridAvto.AvtoManager;
-using DataGridAvto.StorageMemory;
+using DataGridAvto.StorageDataBase;
 using Serilog;
 using Serilog.Extensions.Logging;
 using System;
@@ -25,7 +25,7 @@ namespace DataGridAvto
 
             var logger = new SerilogLoggerFactory(serilogLogger).CreateLogger("keysname");
 
-            var storage = new MemoryCarStorage();
+            var storage = new DBAvtoStorage();
             var manager = new CarManager(storage, logger);
 
             Application.Run(new Form1(manager));

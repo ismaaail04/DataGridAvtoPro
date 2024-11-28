@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataGridAvto.AvtoManager.Te
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataGridAvto.StorageMemory.Tests", "DataGridAvto.StorageMemoryTests\DataGridAvto.StorageMemory.Tests.csproj", "{C93FE7CA-2978-46C3-9609-20498A15937E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataGridAvto.StorageDataBase", "DataGridAvto.StorageDataBase\DataGridAvto.StorageDataBase.csproj", "{DAA2B07C-E0F3-45DD-BD19-7752989EA1D0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{C93FE7CA-2978-46C3-9609-20498A15937E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C93FE7CA-2978-46C3-9609-20498A15937E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C93FE7CA-2978-46C3-9609-20498A15937E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAA2B07C-E0F3-45DD-BD19-7752989EA1D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAA2B07C-E0F3-45DD-BD19-7752989EA1D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAA2B07C-E0F3-45DD-BD19-7752989EA1D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAA2B07C-E0F3-45DD-BD19-7752989EA1D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

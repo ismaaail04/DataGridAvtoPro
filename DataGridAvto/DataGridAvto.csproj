@@ -39,6 +39,12 @@
     <Reference Include="DataGridAvto.StorageMemory, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\PKGH.KholIsm.DataGridAvto.StorageMemory.1.0.1\lib\netstandard2.0\DataGridAvto.StorageMemory.dll</HintPath>
     </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.8.0.0\lib\net462\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
     </Reference>
@@ -314,6 +320,10 @@
     <ProjectReference Include="..\DataGridAvto.AvtoManager\DataGridAvto.AvtoManager.csproj">
       <Project>{58C6C086-EFF4-4221-8286-F268445C1614}</Project>
       <Name>DataGridAvto.AvtoManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataGridAvto.StorageDataBase\DataGridAvto.StorageDataBase.csproj">
+      <Project>{DAA2B07C-E0F3-45DD-BD19-7752989EA1D0}</Project>
+      <Name>DataGridAvto.StorageDataBase</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

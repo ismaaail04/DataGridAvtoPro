@@ -34,7 +34,9 @@ namespace DataGridAvto
             if (avtoForm.ShowDialog(this) == DialogResult.OK)
             {
                 await carManager.AddAsync(ValidConverter.ToValidAvto(avtoForm.ValidAvto));
+                bindingSource.DataSource = await carManager.GetAllAsync();
                 bindingSource.ResetBindings(false);
+                bindingSource.DataSource = await carManager.GetAllAsync();
                 await SetStats();
             }
         }
@@ -68,6 +70,7 @@ namespace DataGridAvto
                 if (avtoForm.ShowDialog(this) == DialogResult.OK)
                 {
                     await carManager.EditAsync(ValidConverter.ToValidAvto(avtoForm.ValidAvto));
+                    bindingSource.DataSource = await carManager.GetAllAsync();
                     bindingSource.ResetBindings(false);
                     await SetStats();
                 }
@@ -83,6 +86,7 @@ namespace DataGridAvto
                 if (MessageBox.Show($"Вы действительно хотите удалить {data.Mark}?", "Удаление записи", MessageBoxButtons.YesNo) == DialogResult.Yes)
                 {
                     await carManager.DeleteAsync(data.Id);
+                    bindingSource.DataSource = await carManager.GetAllAsync();
                     bindingSource.ResetBindings(false);
                     await SetStats();
                 }

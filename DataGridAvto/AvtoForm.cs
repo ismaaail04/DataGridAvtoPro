@@ -30,6 +30,11 @@ namespace DataGridAvto
                 {
                     Id = Guid.NewGuid(),
                     Mark = Mark.Hunday_Creta,
+                    Number = "i333hm333",
+                    Probeg = 333,
+                    AvgFuelCons = 3,
+                    CurrFuel = 33,
+                    CostRent = 33,
                 }
                 : new ValidAvto
                 {
